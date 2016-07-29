@@ -1,0 +1,56 @@
+/* 
+# File Name: Partial File for Colors
+## Description: Defining Colors to be used. Some basic writing & naming conventions to be followed.
+
+### Writing Hex Codes & Naming Variables:
+  All hex codes must be in lowercase.
+  Use shorter three character hex codes where possible. 
+  For example, #eeccbb can be written as #ecb.
+  Use lowercase, hyphenated names for variables. No underscores allowed.
+  Follow alphabetical order as much as possible.
+
+### Primary & Secondary Colors:
+  Naming Convention to be used: $primary-PURPOSE & $secondary-PURPOSE.
+  For example, $primary-web and $primary-owners-dashboard.
+  
+### Black White and everything in between:
+  $black and $white should be self explanatory. (Do we need to define them as a variable??) 
+  The gradient between them can be defined as  $grey-100, $grey-200 ... $grey900.
+
+### Other general colors:
+  Other colors that we may need are a secondary color, a particular shade of blue, green, red and yellow/orange.
+  Naming them can be based on their purpose.
+  $danger, $info, $success & $warning
+
+Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
+Last Edited on: July 29, 2015
+*/
+
+/* Black, White and everything in between */
+$black: #000;
+// $grey-100
+// $grey-200
+// $grey-300
+// $grey-400
+// $grey-500
+// $grey-600
+// $grey-700
+// $grey-800
+// $grey-900
+$white: #fff;
+
+/* Primary & Secondary Colors */
+$primary-web: #ff5a5f;
+$primary-web-owners: #00d6c9;
+// $primary-web-refer
+$primary-owners-dashboard: #47b5ab;
+// $secondary-web
+// $secondary-owners-dashboard
+
+/* Other general colors */
+// $danger
+// $info
+// $success
+// $warning
+
+/* # Leave a new line at the end of every file. */
