@@ -18,3 +18,72 @@
 Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
 Last Edited on: July 29, 2015
 */
+
+$font-light: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-bold: 700;
+
+body {
+  line-height: 1.2;
+}
+
+body,
+p {
+  font-size: 14px;
+  font-weight: $font-normal;
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+p.lead {
+  font-size: 18px;
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+p.small {
+  font-size: 12px;
+  @media (max-width: 768px) {
+    font-size: 10px;
+  }
+}
+
+h1 {
+  font-size: 42px;
+  @media (max-width: 768px) {
+    font-size: 36px;
+  }
+}
+
+h2 {
+  font-size: 28px;
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  font-size: 21px;
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+h4 {
+  font-size: 14px;
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: $font-bold;
+}
+
+/* # Leave a new line at the end of every file. */
