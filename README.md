@@ -36,6 +36,12 @@ stylesheets
   - _owners.scss
   - _refer.scss
   - _houses.scss
+  - /owners-dashboard
+    - _home.scss
+    - _key-updates.scss
+    - _properties.scss
+    - _settings.scss
+    - _transactions.scss
 - /vendors
     - /bootstrap
       - _boostrap.scss
