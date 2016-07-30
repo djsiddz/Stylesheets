@@ -23,14 +23,16 @@ $font-light: 300;
 $font-normal: 400;
 $font-medium: 500;
 $font-bold: 700;
+$font-family: 'Roboto';
 
 body {
+  font-family: $font-family;
   line-height: 1.2;
 }
 
 body,
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: $font-normal;
   @media (max-width: 768px) {
     font-size: 12px;
@@ -38,42 +40,42 @@ p {
 }
 
 p.lead {
-  font-size: 18px;
+  font-size: 20px;
   @media (max-width: 768px) {
     font-size: 16px;
   }
 }
 
 p.small {
-  font-size: 12px;
+  font-size: 14px;
   @media (max-width: 768px) {
     font-size: 10px;
   }
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 48px;
   @media (max-width: 768px) {
     font-size: 36px;
   }
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 32px;
   @media (max-width: 768px) {
     font-size: 24px;
   }
 }
 
 h3 {
-  font-size: 21px;
+  font-size: 24px;
   @media (max-width: 768px) {
     font-size: 18px;
   }
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 16px;
   @media (max-width: 768px) {
     font-size: 12px;
   }
