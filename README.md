@@ -11,38 +11,35 @@ Media queries will be basically used to adjust the font size, paddings and margi
 
 stylesheets
 - /base
-  - _base.scss?
+  - _colors.scss
   - _typography.scss
-  - _reset.scss?
+  - _z-index.scss
 - /components
   - _buttons.scss
   - _carousel.scss
   - _cover.scss
-  - dropdown.scss
-  - navigation.scss
-- /helpers-or-utils
-  - _variables.scss
-  - _functions.scss
-  - _mixins.scss
-  - _helpers.scss
-- /layouts
-  - _grid.scss
-  - _header.scss
+  - _dropdown.scss
   - _footer.scss
-  - _sidebar.scss
   - _forms.scss
+  - _navigation.scss
+- /helpers
+  - _variables.scss
+  - _loader.scss
+  - _mixins.scss
+- /layouts
+  - _layout.scss
+    - /owners-dashboard
+      - _layout.scss
 - /pages
-  - _home.scss
-  - _contact.scss
-- /theme
-  - _theme.scss
-  - _admin.scss
+  - _help.scss
+  - _homestayz.scss
+  - _owners.scss
+  - _refer.scss
+  - _houses.scss
 - /vendors
-  - _boostrap.scss
-  - _jquery-ui.scss
-- /plugins
-  - /bourbon
-    - _bourbon.scss
-  - /neat
-    - _neat.scss
+    - /bootstrap
+      - _boostrap.scss
+    - /plugins
+      - /bourbon
+        - _bourbon.scss
 - main.scss
