@@ -1,15 +1,15 @@
 /* Uncomment as and when we have matching files */
 
-// @import 'utils/variables';
-// @import 'utils/functions';
-// @import 'utils/mixins';
-// @import 'utils/placeholders';
+// @import 'helpers/variables';
+// @import 'helpers/functions';
+// @import 'helpers/mixins';
+// @import 'helpers/placeholders';
 
 // @import 'vendors/bootstrap';
 // @import 'vendors/jquery-ui';
 
-// @import 'base/reset';
-// @import 'base/typography';
+@import 'base/colors';
+@import 'base/typography';
 
 // @import 'layout/navigation';
 // @import 'layout/grid';
