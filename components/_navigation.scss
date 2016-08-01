@@ -1,18 +1,16 @@
 /* For New Owners page */
+
 .navbar-nav .nav-item + .nav-item {
 	margin-left: 3rem;
 }
 
 .navbar-nav .nav-item.active {
-	background-color: #00d6c9;
+	background-color: $primary-color;
 	padding: 0 1em;
 	font-weight: medium;
 }
 
 .bg-gradient {
-  /* Height and positioning of Homepage Navbar */
-  // position: absolute;
-  // height: 65px;
   background-image: -webkit-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
   background-image: -moz-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
   background-image: -webkit-gradient(linear,0,100%,from(rgba(0,0,0,.4)),to(rgba(0,0,0,0)));
@@ -23,11 +21,12 @@
   background-repeat: repeat-x;
 }
 
-.hero-section {
-	padding-top: 25vh;
+.cover {
+	padding-top: calc(25vh);
 	.row {
 		.col-xs-12.col-md-6 {
-			background-color: #fff;
+			background-color: transparent;
+			color: #fff;
 			padding: 3em;
 		}
 	}
