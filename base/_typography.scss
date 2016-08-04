@@ -16,7 +16,7 @@
 ### Font Weights:
 
 Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
-Last Edited on: July 30, 2015
+Last Edited on: August 4, 2016
 */
 
 $font-light: 300;
@@ -25,57 +25,69 @@ $font-medium: 500;
 $font-bold: 700;
 $font-family: 'Roboto';
 
+/* Font-weight */
+.light	{	font-weight: $font-light;		}
+.normal	{ font-weight: $font-normal;	}
+.medium { font-weight: $font-medium;	}
+.bold		{ font-weight: $font-bold;		}
+
 body {
   font-family: $font-family;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 body,
 p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: $font-normal;
-  @media (max-width: 768px) {
-    font-size: 12px;
-  }
+  // not scaling body and p font
+  // @media (max-width: 768px) {
+  //   font-size: 12px;
+  // }
 }
 
 p.lead {
-  font-size: 20px;
-  @media (max-width: 768px) {
-    font-size: 16px;
-  }
+  font-size: 18px;
+  font-weight: $font-light;
+  // not scaling p.lead
+  // @media (max-width: 768px) {
+  //   font-size: 16px;
+  // }
 }
 
 p.small {
-  font-size: 14px;
-  @media (max-width: 768px) {
-    font-size: 10px;
-  }
+  font-size: 12px;
+  font-weight: $font-normal;
+  // not scaling p.small
+  // @media (max-width: 768px) {
+  //   font-size: 10px;
+  // }
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 42px;
   @media (max-width: 768px) {
     font-size: 36px;
   }
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 28px;
+  font-weight:$font-light;
   @media (max-width: 768px) {
-    font-size: 30px;
+    font-size: 24px;
   }
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 21px;
   @media (max-width: 768px) {
     font-size: 18px;
   }
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 14px;
   @media (max-width: 768px) {
     font-size: 12px;
   }

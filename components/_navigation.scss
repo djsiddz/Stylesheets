@@ -1,33 +1,89 @@
-/* For New Owners page */
+/*
+# File Name: Partial File for Navigation
+## Description: All CSS related to the navbar.
+
+### Writing & Naming Variables:
+  Use lowercase, hyphenated names for variables. No underscores allowed.
+  Follow alphabetical order as much as possible.
+
+Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
+Last Edited on: August 4, 2016
+*/
+
+// bg-gradient not being used currently; can be removed.
+//.bg-gradient {
+  // background-image: -webkit-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
+  // background-image: -moz-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
+  // background-image: -webkit-gradient(linear,0,100%,from(rgba(0,0,0,.4)),to(rgba(0,0,0,0)));
+  // background-image: -ms-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
+  // background-image: -o-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
+  // background-image: linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
+  // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#00000000', GradientType=0);
+  // background-repeat: repeat-x;
+//}
+
+.bg-semi-transparent {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-white {
+	background-color: #fff;
+}
+
+.navbar {
+	box-shadow: 0px 1px 3px #555;
+}
 
 .navbar-nav .nav-item + .nav-item {
 	margin-left: 3rem;
 }
 
 .navbar-nav .nav-item.active {
-	background-color: $primary-color;
-	padding: 0 1em;
+	border-bottom: 1px solid #999;
 	font-weight: medium;
+	padding: 0 1em;
 }
 
-.bg-gradient {
-  background-image: -webkit-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
-  background-image: -moz-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
-  background-image: -webkit-gradient(linear,0,100%,from(rgba(0,0,0,.4)),to(rgba(0,0,0,0)));
-  background-image: -ms-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
-  background-image: -o-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
-  background-image: linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#00000000', GradientType=0);
-  background-repeat: repeat-x;
+//Navbar formatting
+.navbar-header {
+	text-align: center
+	width: 100%;
 }
 
-.cover {
-	padding-top: calc(25vh);
-	.row {
-		.col-xs-12.col-md-6 {
-			background-color: transparent;
-			color: #fff;
-			padding: 3em;
-		}
+
+@media (max-width: 48em) {
+    .navbar-brand{
+    //  color:#555 !important;
+    }
+    .navbar-toggler{
+     color:#555;
+    }
+ 	.navbar-brand {
+    float: none;
+    text-align: center;
+	}
+	.nav-item {
+  	float: none !important;
+	}
+	.navbar-nav {
+    clear: left;
+	}
+	.navbar-divider,
+	.navbar-nav .nav-item+.nav-item,
+	.navbar-nav .nav-link + .nav-link {
+  	margin-left: 0;
 	}
 }
+@media (min-width: 48em) {
+  .navbar-brand {
+    float: left;
+  }
+  .nav-item {
+    float: left;
+  }
+	.navbar-nav {
+		float: right;
+	}
+}
+
+/* # Leave a new line at the end of every file. */

@@ -1,0 +1,65 @@
+/*
+# File Name: Partial File for Testimonial Carousels
+
+## Description: Custom carousel for displaying testimonials.
+
+### Writing & Naming Variables:
+  Use lowercase, hyphenated names for variables. No underscores allowed.
+  Follow alphabetical order as much as possible.
+
+Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
+Last Edited on: August 4, 2016
+*/
+
+// TODO: colors to be fixed first and changed to variables
+.carousel-control.left {
+	background: none;
+	color: #000;
+	.fa.fa-2x.fa-chevron-left {
+    font-size: 30px;
+    height: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+		position: absolute;
+    top: 50%;
+		width: 30px;
+	}
+}
+
+.carousel-control.right {
+	background: none;
+	color: #000;
+	.fa.fa-2x.fa-chevron-right {
+		font-size: 30px;
+    height: 30px;
+		margin-left: -15px;
+    margin-top: -15px;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+	}
+}
+
+.carousel-indicators li {
+	background-color: #999;
+	border: 1px solid #999;
+}
+
+.carousel-indicators.testimonial-indicators .active {
+	background-color: #000;
+	border: 1px solid #000;
+}
+
+.carousel-indicators.testimonial-indicators {
+  bottom: 0;
+  left: 0;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  z-index: 15;
+}
+
+/* # Leave a new line at the end of every file. */

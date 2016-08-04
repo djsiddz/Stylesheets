@@ -1,0 +1,88 @@
+/*
+# File Name: Partial File for Footer
+## Description: All CSS related to the footer.
+
+### Writing & Naming Variables:
+  Use lowercase, hyphenated names for variables. No underscores allowed.
+  Follow alphabetical order as much as possible.
+
+Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
+Last Edited on: August 4, 2016
+*/
+
+footer {
+  background-color: #222;
+}
+
+.footer-container{
+  @extend .container;
+	padding: 70px 20px !important;
+}
+
+.footer-row{
+  @extend .row;
+  border-bottom: 1px solid $text-muted;
+	padding-bottom: 40px;
+}
+
+.brand-name{
+	color: #ddd;
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.footer-text {
+	color: $text-muted;
+	font-size: medium;
+	& a:hover {
+		color: $text-muted;
+		text-decoration: none;
+	}
+}
+
+.footer-item{
+	color: #ccc;
+	font-size: medium;
+  margin-bottom: 0;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.footer-list{
+  list-style: none;
+  padding-left: 5px;
+}
+
+.footer-link{
+  color: #969696;
+  cursor: pointer;
+  font-size: medium;
+	text-decoration: none;
+	&:focus, &:hover, &:active{
+		color: #aaa;
+		text-decoration: none
+	}
+}
+
+.footer-social {
+	padding: 1rem;
+}
+
+.footer-social-header {
+	@extend .footer-item;
+	margin-top: 20px;
+}
+
+.footer-social a {
+	color: white;
+	font-size: x-large;
+	line-height: 2;
+	padding: 1rem;
+	&:hover {
+		color: #888;
+	}
+}
+
+/* # Leave a new line at the end of every file. */

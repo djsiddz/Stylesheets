@@ -1,0 +1,63 @@
+/*
+# File Name: Partial File for Help page
+
+## Description: CSS used specifically on the /help page.
+
+### Writing & Naming Variables:
+  Use lowercase, hyphenated names for variables. No underscores allowed.
+  Follow alphabetical order as much as possible.
+
+Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
+Last Edited on: August 4, 2016
+*/
+
+//TODO: Give proper names to all these classes and follow naming guidelines.
+
+div.FAQwrap * {
+	cursor:pointer;
+  text-decoration:none;
+}
+
+.faqNav {
+  padding-bottom: 2em;
+}
+
+//TODO: using !important is not good practice. Need to find better solution.
+
+.FAQsba
+{
+    color:#000 !important;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.FAQsb
+{
+    color:#757575 !important;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.FAQsb:hover
+{
+    color:#000 !important;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.FAQsba:hover
+{
+    color:#000 !important;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.sectionHeader {
+  padding-bottom: 1em;
+}
+
+.questions:last-child {
+  padding-bottom: 1em;
+}
+
+/* # Leave a new line at the end of every file. */

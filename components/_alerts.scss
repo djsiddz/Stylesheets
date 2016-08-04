@@ -1,0 +1,22 @@
+/*
+# File Name: Partial File for Alerts
+
+## Description: Custom alert box for Homestayz.
+
+### Writing & Naming Variables:
+  Use lowercase, hyphenated names for variables. No underscores allowed.
+  Follow alphabetical order as much as possible.
+
+Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
+Last Edited on: August 4, 2016
+*/
+
+// colors to be fixed first and changed to variables
+.alert-muted {
+    background-color: #333;
+    border-color: #000;
+    border-radius: 0;
+    color: #fff;
+}
+
+/* # Leave a new line at the end of every file. */

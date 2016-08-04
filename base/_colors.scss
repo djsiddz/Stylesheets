@@ -1,10 +1,10 @@
-/* 
+/*
 # File Name: Partial File for Colors
 ## Description: Defining Colors to be used. Some basic writing & naming conventions to be followed.
 
 ### Writing Hex Codes & Naming Variables:
   All hex codes must be in lowercase.
-  Use shorter three character hex codes where possible. 
+  Use shorter three character hex codes where possible.
   For example, #eeccbb can be written as #ecb.
   Use lowercase, hyphenated names for variables. No underscores allowed.
   Follow alphabetical order as much as possible.
@@ -12,9 +12,9 @@
 ### Primary & Secondary Colors:
   Naming Convention to be used: $primary-PURPOSE & $secondary-PURPOSE.
   For example, $primary-web and $primary-owners-dashboard.
-  
+
 ### Black White and everything in between:
-  $black and $white should be self explanatory. (Do we need to define them as a variable??) 
+  $black and $white should be self explanatory. (Do we need to define them as a variable??)
   The gradient between them can be defined as  $grey-100, $grey-200 ... $grey900.
 
 ### Other general colors:
@@ -23,24 +23,19 @@
   $danger, $info, $success & $warning
 
 Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
-Last Edited on: July 29, 2015
+Last Edited on: August 4, 2016
 */
 
 /* Black, White and everything in between */
 $black: #000;
-// $grey-100
-// $grey-200
-// $grey-300
-// $grey-400
-// $grey-500
-// $grey-600
-// $grey-700
-// $grey-800
-// $grey-900
+$grey-darkest: #333;
+$grey-dark: #666;
+$grey-light: #999;
+$grey-lightest: #ccc;
 $white: #fff;
 
 /* Primary & Secondary Colors */
-$primary-web: #ff5a5f;
+$primary-web: #999;
 $primary-web-owners: #00d6c9;
 // $primary-web-refer
 $primary-owners-dashboard: #47b5ab;
