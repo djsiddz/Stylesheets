@@ -1,0 +1,38 @@
+/*---------- Shortlist Section Styles -------------*/
+.spark {
+    color: red !important;
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding:0;
+    }
+
+.dropdown-content {
+    display: none;
+    padding-bottom:0;
+    margin-bottom:0;
+    width:285px;
+    position: absolute;
+    min-width: 160px;
+    background-color: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.dropdown-content a:hover {
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.shortlist-scroll{
+    max-height:210px;
+    overflow-y:auto;
+    width:285px;
+}
+/*-------------------------------------------*/

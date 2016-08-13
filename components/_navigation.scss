@@ -7,20 +7,19 @@
   Follow alphabetical order as much as possible.
 
 Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
-Last Edited on: August 4, 2016
+Last Edited on: August 12, 2016
 */
 
-// bg-gradient not being used currently; can be removed.
-//.bg-gradient {
-  // background-image: -webkit-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
-  // background-image: -moz-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
-  // background-image: -webkit-gradient(linear,0,100%,from(rgba(0,0,0,.4)),to(rgba(0,0,0,0)));
-  // background-image: -ms-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
-  // background-image: -o-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
-  // background-image: linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
-  // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#00000000', GradientType=0);
-  // background-repeat: repeat-x;
-//}
+.bg-gradient {
+  background-image: -webkit-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
+  background-image: -moz-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
+  background-image: -webkit-gradient(linear,0,100%,from(rgba(0,0,0,.4)),to(rgba(0,0,0,0)));
+  background-image: -ms-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
+  background-image: -o-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
+  background-image: linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#00000000', GradientType=0);
+  background-repeat: repeat-x;
+}
 
 .bg-semi-transparent {
 	background-color: rgba(0, 0, 0, 0.5);
@@ -39,7 +38,7 @@ Last Edited on: August 4, 2016
 }
 
 .navbar-nav .nav-item.active {
-	border-bottom: 1px solid #999;
+	border-bottom: 1px solid $grey;
 	font-weight: medium;
 	padding: 0 1em;
 }
@@ -85,5 +84,25 @@ Last Edited on: August 4, 2016
 		float: right;
 	}
 }
+
+/* Navbar CSS */
+.no-favorites-card {
+  @extend .card-block;
+  margin-bottom: 0px;
+  border-radius: 3px
+}
+.no-favourites-card-text {
+	font-size: 0.8em;
+}
+.for-home-owners-link {
+	// color: #FF5A5F !important;
+	&:hover{
+		background-color: rgba(0,0,0,0.25);
+	}
+	border: 2px solid #FFF;
+	border-radius: 5px;
+}
+
+
 
 /* # Leave a new line at the end of every file. */

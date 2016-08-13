@@ -1,0 +1,20 @@
+/*
+# File Name: Partial File for Section
+## Description: All common CSS related to the <section>.
+
+### Writing & Naming Variables:
+  Use lowercase, hyphenated names for variables. No underscores allowed.
+  Follow alphabetical order as much as possible.
+
+Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
+Last Edited on: August 12, 2016
+*/
+
+section {
+	padding-top: 6rem;
+	padding-bottom: 3rem;
+	background-color: $white;
+	// Using padding-bottom and padding-top for white space between
+	// each section 6 & 3rem to make it visually clear where one
+	// section ends and the other starts.
+}

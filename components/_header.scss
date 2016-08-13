@@ -1,0 +1,36 @@
+/*
+# File Name: Partial File for Header
+## Description: All common CSS related to the header.
+
+### Writing & Naming Variables:
+  Use lowercase, hyphenated names for variables. No underscores allowed.
+  Follow alphabetical order as much as possible.
+
+Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
+Last Edited on: August 12, 2016
+*/
+
+header {
+	width: 100%;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.cover {
+	padding-top: 9rem;
+	padding-bottom: 6rem;
+	margin-bottom: 3rem;
+	// Using margin-bottom for white space between the cover and first section
+	@media (max-width: 768px) {
+		padding-top: 6rem;
+		padding-bottom: 1rem;
+	}
+	.row {
+		.cover-content {
+			background-color: $accent-web;
+			color: $white;
+			padding: 3em;
+		}
+	}
+}

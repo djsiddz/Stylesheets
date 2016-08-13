@@ -14,38 +14,56 @@
   For example, $primary-web and $primary-owners-dashboard.
 
 ### Black White and everything in between:
-  $black and $white should be self explanatory. (Do we need to define them as a variable??)
+  $black and $white should be self explanatory.
   The gradient between them can be defined as  $grey-100, $grey-200 ... $grey900.
+  or as  $grey-light, $grey-dark ... if we plan to use fixed number of greys.
 
 ### Other general colors:
-  Other colors that we may need are a secondary color, a particular shade of blue, green, red and yellow/orange.
+  Other colors that we may need are an accent color, a particular shade of blue, green, red and yellow/orange.
   Naming them can be based on their purpose.
   $danger, $info, $success & $warning
 
 Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
-Last Edited on: August 4, 2016
+Last Edited on: August 11, 2016
 */
 
 /* Black, White and everything in between */
 $black: #000;
-$grey-darkest: #333;
-$grey-dark: #666;
-$grey-light: #999;
-$grey-lightest: #ccc;
 $white: #fff;
+$grey-dark: #222;
+$grey: #888;
+$grey-light: #fafafa;
 
-/* Primary & Secondary Colors */
-$primary-web: #999;
-$primary-web-owners: #00d6c9;
-// $primary-web-refer
+/* Primary & Accent Colors */
+$primary-web: #e76152;
+$accent-web: #005270;
+
 $primary-owners-dashboard: #47b5ab;
-// $secondary-web
-// $secondary-owners-dashboard
+// $accent-owners-dashboard
 
 /* Other general colors */
-// $danger
-// $info
-// $success
+$danger: #d7525b;
+$info: #4788b5;
+$success: #5bb135;
 // $warning
+
+/* Text Colors */
+$text-primary: $grey-dark;
+$text-muted: $grey;
+
+/* Border Colors */
+$border-color: $grey-light;
+
+$shadow-color: rgba(0,0,0,0.1);
+
+$notification-credit: #5BB135; //green
+$notification-debit: #D7525B;  //red
+$notification-info: #4788b5;  //blue
+
+/*Variables to define colors for owners dashboard section*/
+$owners-secondary-color: #006064;
+$owners-text-color: #424242;
+$owners-amount-color: #7CB342;
+$owners-bg-color: #e0f2f1;
 
 /* # Leave a new line at the end of every file. */

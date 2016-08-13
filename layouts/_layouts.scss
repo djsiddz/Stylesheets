@@ -11,6 +11,13 @@ Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
 Last Edited on: August 4, 2016
 */
 
-/* Add SASS/CSS here */
+.three-column-layout {
+
+	@include make-row();
+
+	.column {
+	}
+}
+
 
 /* # Leave a new line at the end of every file. */

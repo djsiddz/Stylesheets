@@ -1,0 +1,141 @@
+/*
+# File Name: Partial File for PURPOSE
+
+## Description: Add a one line description for this file. Eg: Basic writing & naming conventions to be followed.
+
+### Some Heading Here:
+  List out points.
+  One below the other. Some points can be followed by examples.
+  For example, #eeccbb can be written as #ecb.
+
+### Example Heading - Naming Conventions:
+  Naming Convention to be used: $primary-PURPOSE & $secondary-PURPOSE.
+  For example, $primary-web and $primary-owners-dashboard.
+
+Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
+Last Edited on: July 29, 2015
+*/
+
+$content-offset: 45px;
+
+.quick-view-timeline-item {
+    background: #fff;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    margin: 0;
+}
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+
+.quick-view-animated-background {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px 400px;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.quick-view-background-masker {
+    background: #fff;
+    position: absolute;
+}
+
+/* Every thing below this is just positioning */
+
+.quick-view-background-masker.quick-view-header-top{
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 18px;
+}
+.quick-view-background-masker.quick-view-header-left-1{
+    top: 18px;
+    left: 0;
+    width: 5%;
+    height: 18px;
+}
+.quick-view-background-masker.quick-view-header-right-1{
+    top: 18px;
+    right: 50%;
+    width: 10%;
+    height: 18px;
+}
+.quick-view-background-masker.quick-view-header-left-2{
+    top: 18px;
+    left: 50%;
+    width: 10%;
+    height: 18px;
+}
+.quick-view-background-masker.quick-view-header-right-2{
+    top: 18px;
+    right: 0;
+    width: 5%;
+    height: 18px;
+}
+.quick-view-background-masker.quick-view-subheader-top{
+    top: 36px;
+    left: 0;
+    right: 0;
+    height: 4px;
+}
+.quick-view-background-masker.quick-view-subheader-left-1{
+    top: 40px;
+    left: 0;
+    width: 5%;
+    height: 15px;
+}
+.quick-view-background-masker.quick-view-subheader-right-1{
+    top: 40px;
+    right: 50%;
+    width: 20%;
+    height: 15px;
+}
+.quick-view-background-masker.quick-view-subheader-left-2{
+    top: 40px;
+    left: 50%;
+    width: 20%;
+    height: 15px;
+}
+.quick-view-background-masker.quick-view-subheader-right-2{
+    top: 40px;
+    right: 0%;
+    width: 5%;
+    height: 15px;
+}
+.quick-view-background-masker.quick-view-image-top{
+    top: 55px;
+    left: 0;
+    right: 0;
+    height: 48px;
+}
+.quick-view-background-masker.quick-view-image-left{
+    top: 48px;
+    left: 0;
+    width: 5%;
+    bottom: 5%;
+}
+.quick-view-background-masker.quick-view-image-right{
+    top: 48px;
+    right: 0;
+    width: 5%;
+    bottom: 5%;
+}
+.quick-view-background-masker.quick-view-image-bottom{
+    height: 5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* # Leave a new line at the end of every file. */

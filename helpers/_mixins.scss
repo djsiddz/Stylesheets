@@ -1,21 +1,34 @@
-/* 
+/*
 # File Name: Partial File for PURPOSE
 
 ## Description: Add a one line description for this file. Eg: Basic writing & naming conventions to be followed.
 
 ### Some Heading Here:
   List out points.
-  One below the other. Some points can be followed by examples. 
+  One below the other. Some points can be followed by examples.
   For example, #eeccbb can be written as #ecb.
 
 ### Example Heading - Naming Conventions:
   Naming Convention to be used: $primary-PURPOSE & $secondary-PURPOSE.
   For example, $primary-web and $primary-owners-dashboard.
-  
+
 Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
-Last Edited on: July 29, 2015
+Last Edited on: August 12, 2016
 */
 
-/* Add SASS/CSS here */
+@mixin generate-sizes($class, $start, $end) {
+	@for $i from $start through $end {
+		.#{$class}-#{$i} {
+			font-size: #{$i}px;
+		}
+	}
+}
+@include generate-sizes("fs", 8, 30);
+
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
 
 /* # Leave a new line at the end of every file. */

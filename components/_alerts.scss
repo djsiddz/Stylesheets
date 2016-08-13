@@ -12,11 +12,24 @@ Last Edited on: August 4, 2016
 */
 
 // colors to be fixed first and changed to variables
-.alert-muted {
-    background-color: #333;
-    border-color: #000;
-    border-radius: 0;
-    color: #fff;
+.alert-accent {
+    background-color: $accent-web;
+    border-color: $accent-web;
+    color: $white;
+		border-radius: 0;
 }
+//For Notifications
+.alert {
+  font-size: 14px;
+}
+.alert-success{
+  background-color: #cff5f2!important;
+  color: #0a7c71!important;
+}
+.alert-danger{
+  background-color: #fddddd;
+  color: #933432;
+}
+
 
 /* # Leave a new line at the end of every file. */

@@ -1,0 +1,76 @@
+/* Search Bar CSS */
+
+#hs-search {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0,0,0,0.6);
+}
+
+#hs-search .btn-hs {
+  padding: 0.75rem 1.4rem;
+}
+
+#hs-search .btn-secondary {
+  border-color: #eee;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+#hs-search-bhk label {
+  margin-bottom: 0px;
+}
+
+#hs-search-bhk label:hover{
+  text-decoration:none;
+  color:auto;
+  background-color:auto;
+  cursor:auto;
+}
+
+.neighbourhood{
+    width: 12rem;
+}
+
+.preselect{
+    color:#82888a;;
+}
+
+.postselect{
+    color:#333;
+}
+
+.inline-connect-right{
+    border-top-right-radius: 0;
+    border-bottom-right-radius:0;
+}
+
+.inline-connect-left{
+    border-top-left-radius: 0;
+    border-bottom-left-radius:0;
+}
+
+.budget-btn{
+    width: 135px;
+}
+
+
+// To make modal elements aligned
+.modal-block{
+  width: 80% !important;
+}
+.child-modal-block{
+  width: 100% !important;
+}
+.search-separator{
+  margin-bottom: 10px;
+  border-top: 1px solid #e5e5e5;
+}
+.modal-bhk-label{
+  width: 33%;
+  font-size: 0.875rem!important;
+}
+.modal-bhk-btn{
+  width: 17%;
+}

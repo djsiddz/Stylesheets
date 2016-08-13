@@ -16,14 +16,41 @@ Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
 Last Edited on: July 29, 2015
 */
 
-/* Bootstrap variables*/
-$enable-flex: true;
-//override bootstrap primary with homestayz primary
-$brand-primary: $primary-web;
-
-$primary-color: $primary-web;
-
-//used by ngGallery - to be sorted
-$navbar-height: 45px;
+//For progress
+.overlay{
+  position: fixed;
+  top: 0 ;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $white;
+  z-index: 1050;
+}
+.search-house-card-overlay{
+  position: relative;
+  height: 175px;
+  background-color: $white;
+}
+.details-house-card-overlay{
+  position: relative;
+  height: 500px;
+}
+@media (max-width: 48em) {
+  .details-house-card-overlay {
+    height: 200px;
+  }
+}
+.quick-view-image-overlay{
+  position: relative;
+  height: 315px;
+  background-color: #f6f7f8;
+  z-index: 0;
+}
+.absolute-center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /* # Leave a new line at the end of every file. */

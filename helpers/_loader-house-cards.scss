@@ -1,0 +1,241 @@
+/*
+# File Name: Partial File for PURPOSE
+
+## Description: Add a one line description for this file. Eg: Basic writing & naming conventions to be followed.
+
+### Some Heading Here:
+  List out points.
+  One below the other. Some points can be followed by examples.
+  For example, #eeccbb can be written as #ecb.
+
+### Example Heading - Naming Conventions:
+  Naming Convention to be used: $primary-PURPOSE & $secondary-PURPOSE.
+  For example, $primary-web and $primary-owners-dashboard.
+
+Last Edited by: Siddhesh Thadeshwar<siddhesh@homestayz.in>
+Last Edited on: July 29, 2015
+*/
+
+$image-offset: 47%;
+$content-offset: 45px;
+
+.timeline-item {
+    background: #fff;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
+    padding: 12px;
+    margin: 0;
+    min-height: 200px;
+}
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+
+.animated-background {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px 104px;
+    min-height: 175px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.background-masker {
+    background: #fff;
+    position: absolute;
+}
+
+/* Every thing below this is just positioning */
+
+.background-masker.header-top{
+    top: 0;
+    left: $image-offset;
+    right: 0;
+    height: 18px;
+}
+.background-masker.header-left{
+    top: 18px;
+    left: $image-offset;
+    width: $content-offset;
+    height: 18px;
+}
+.background-masker.header-right{
+    top: 18px;
+    right: 40px;
+    width: 40px;
+    height: 18px;
+}
+.background-masker.subheader-top{
+    top: 36px;
+    left: $image-offset;
+    right: 0;
+    height: 4px;
+}
+.background-masker.subheader-left{
+    top: 40px;
+    left: $image-offset;
+    width: $content-offset;
+    height: 8px;
+}
+.background-masker.subheader-right{
+    top: 40px;
+    right: 0;
+    width: 110px;
+    height: 8px;
+}
+.background-masker.content-first-top{
+    top: 48px;
+    left: $image-offset;
+    right: 0;
+    height: 55px;
+}
+.background-masker.content-first-left{
+    top: 100px;
+    left: $image-offset;
+    width: $content-offset;
+    height: 18px;
+}
+.background-masker.content-first-right{
+    top: 100px;
+    right: 0;
+    width: 110px;
+    height: 18px;
+}
+.background-masker.content-second-top{
+    top: 118px;
+    left: $image-offset;
+    right: 0;
+    height: 4px;
+}
+.background-masker.content-second-left{
+    top: 122px;
+    left: $image-offset;
+    width: $content-offset;
+    height: 8px;
+}
+.background-masker.content-second-right{
+    top: 122px;
+    right: 0;
+    width: 110px;
+    height: 8px;
+}
+.background-masker.content-second-bottom{
+    top: 130px;
+    left: $image-offset;
+    right: 0;
+    bottom: 0;
+}
+/*.background-masker.header-top,
+.background-masker.header-bottom,
+.background-masker.subheader-bottom {
+    top: 0;
+    left: $image-offset;
+    right: 0;
+    height: 10px;
+}
+
+.background-masker.header-left,
+.background-masker.subheader-left,
+.background-masker.header-right,
+.background-masker.subheader-right {
+    top: 10px;
+    height: 18px;
+    width: $content-offset;
+}
+.background-masker.header-left{
+	  left: $image-offset;
+}
+.background-masker.header-right{
+	  left: 365px;
+	  right: 0;
+}
+
+.background-masker.header-bottom {
+	 top: 36px;
+   height: 6px;
+}
+
+.background-masker.subheader-left,
+.background-masker.subheader-right {
+    top: 24px;
+    height: 6px;
+}
+
+
+.background-masker.header-right,
+.background-masker.subheader-right {
+    width: auto;
+    left: 300px;
+    right: 0;
+}
+
+.background-masker.subheader-right {
+    left: $image-offset;
+}
+
+.background-masker.subheader-bottom {
+    top: 60px;
+    height: 10px;
+}
+
+.background-masker.content-top,
+.background-masker.content-second-line,
+.background-masker.content-third-line,
+.background-masker.content-second-end,
+.background-masker.content-third-end,
+.background-masker.content-first-end {
+    top: 40px;
+    left: 0;
+    right: 0;
+    height: 6px;
+}
+
+.background-masker.content-top {
+    height:20px;
+    left: $image-offset;
+}
+
+.background-masker.content-first-end,
+.background-masker.content-second-end,
+.background-masker.content-third-end{
+    width: auto;
+    left: 380px;
+    right: 0;
+    top: 60px;
+    height: 8px;
+}
+
+.background-masker.content-second-line  {
+    top: 68px;
+    left: $image-offset;
+}
+
+.background-masker.content-second-end {
+    left: 420px;
+    top: 74px;
+}
+
+.background-masker.content-third-line {
+    top: 125px;
+    left: $image-offset;
+}
+
+.background-masker.content-third-end {
+    left: $image-offset;
+    top: 135px;
+    height: 20px;
+}*/
+
+
+/* # Leave a new line at the end of every file. */

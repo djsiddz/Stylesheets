@@ -11,7 +11,7 @@
   For example, $font-family-serif, $font-family-sans; or $font-family-web, $font-family-owners-dashboard
 
 ### Font Sizes:
-  We should always set a bas font size, to be applied on <html>.
+  We should always set a base font size, to be applied on <html>.
 
 ### Font Weights:
 
@@ -23,22 +23,26 @@ $font-light: 300;
 $font-normal: 400;
 $font-medium: 500;
 $font-bold: 700;
+
 $font-family: 'Roboto';
 
-/* Font-weight */
-.light	{	font-weight: $font-light;		}
-.normal	{ font-weight: $font-normal;	}
-.medium { font-weight: $font-medium;	}
-.bold		{ font-weight: $font-bold;		}
+$base-font-size: '14px';
 
+// /* Font-weight */
+// .light	{	font-weight: $font-light;		}
+// .normal	{ font-weight: $font-normal;	}
+// .medium { font-weight: $font-medium;	}
+// .bold		{ font-weight: $font-bold;		}
+
+html,
 body {
   font-family: $font-family;
   line-height: 1.5;
+  font-size: 14px;
 }
 
 body,
 p {
-  font-size: 14px;
   font-weight: $font-normal;
   // not scaling body and p font
   // @media (max-width: 768px) {
